@@ -1,0 +1,18 @@
+Algoritmo "PROGRAMA IMPARES"
+
+Var i, imp, soma: INTEIRO
+
+Inicio
+  imp:=1;
+  para i:=1 ate 10 faca
+       //ESCREVAL (imp)
+       ESCREVAL("Soma:", soma, "+",imp)
+       soma:=soma+imp
+       imp := imp+2
+    Fimpara
+    escreval("A soma dos 10 primeiros numeros impares e:",soma)
+Fimalgoritmo
+
+
+
+Fimalgoritmo
